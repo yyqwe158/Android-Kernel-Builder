@@ -5,8 +5,15 @@ env:
 
 on:
   workflow_dispatch:
+    inputs:
+      days:
+        description: "Number of days."
+        required: true
+        default: "1"
+
 permissions:
   contents: write
+
 jobs:
   Set-repos:
     name: "🐂 Parse repos.json"
