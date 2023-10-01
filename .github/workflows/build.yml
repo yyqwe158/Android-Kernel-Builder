@@ -4,10 +4,8 @@ env:
   OUT_DIR: "${{ github.workspace }}/out"
 
 on:
-  # workflow_dispatch:
-  # 修改每日构建
-  schedule:
-    - cron:  '0 3 * * *'
+  workflow_dispatch:
+
 jobs:
   Set-repos:
     name: "🐂 Parse repos.json"
