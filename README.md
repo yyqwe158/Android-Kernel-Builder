@@ -34,7 +34,7 @@ MIUI rom 建议选择 机型代号-Xiaomi_Kernel_OpenSource-sdm845_构建时间.
 
 
 - [Akitlove](https://github.com/Akitlove) : 此项目所用99%+代码来自此作者,包括但不限于内核修复、Github Action
-
+- [KernelSU](https://github.com/tiann/KernelSU) : KernelSU
 
 # 许可
 
