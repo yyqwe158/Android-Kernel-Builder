@@ -14,7 +14,7 @@
 
 包含: MI 8, MIX2S, POCOPHONE F1, MI 8UD, MIX 3, MI 8 Explorer Edition
 <br>
-
+</div>
 ---
 
 
@@ -28,6 +28,9 @@ MIUI rom 建议选择 机型代号-Xiaomi_Kernel_OpenSource-sdm845_构建时间.
 类原生rom 建议选择 机型代号-NGK_android_kernel_xiaomi_sdm845_构建时间.zip
 
 如: 小米 MIX3 类原生rom 选择 perseus-NGK_android_kernel_xiaomi_sdm845_********.zip
+
+
+---
 
 
 # 致谢
