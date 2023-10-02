@@ -15,6 +15,9 @@ on:
 env:
   OUT_DIR: "${{ github.workspace }}/out"
 
+permissions:
+  contents: write
+
 jobs:
   Set-repos:
     name: "🐂 Parse repos.json"
