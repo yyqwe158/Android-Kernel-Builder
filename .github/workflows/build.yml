@@ -1,16 +1,7 @@
 name: "Build kernels"
 
-# on:
-#   workflow_dispatch:
-#     inputs:
-#       days:
-#         description: "Number of days."
-#         required: true
-#         default: "1"
 on:
-  schedule:
-    - cron: '0 6 * * *'  
-  push:
+  workflow_dispatch:
 
 env:
   OUT_DIR: "${{ github.workspace }}/out"
